@@ -1,0 +1,12 @@
+{
+  "name": "tiled-code-generator",
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "gen": "ts-node ./src/index.js",
+    "test": "npm run build && npm run gen"
+  },
+  "dependencies": {
+    "json-schema-to-typescript": "^11.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
